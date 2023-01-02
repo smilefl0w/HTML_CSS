@@ -1,0 +1,4 @@
+# All basics for git in combination with GitHub and PyCharm
+
+https://www.youtube.com/watch?v=-_g3QITLaQA
+
