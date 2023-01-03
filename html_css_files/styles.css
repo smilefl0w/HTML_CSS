@@ -1,0 +1,40 @@
+/* Profile container */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    background-color: red;
+    padding: 10px;
+    line-height: 5px;
+    width: 500px;
+    float: center;
+}
+
+.metadata {
+    display: flex;
+    justify-content: center;
+    line-height: 8px;
+    color: white;
+    font-family: Monaco, Helvetica, sans-serif;
+}
+
+.metadata img {
+    margin-right: 10px;
+    border-radius:50%;
+    float: left;
+    padding: 10px;
+}
+
+.text {
+    margin-top: 25px;
+    font-size:13px;
+}
+
+.name {
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
