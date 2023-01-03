@@ -1,16 +1,19 @@
 /* Profile container */
 body {
-    margin: 0;
+    margin: 10;
     padding: 0;
 }
 
 .container {
+
     margin: auto;
     background-color: red;
     padding: 10px;
     line-height: 5px;
     width: 500px;
     float: center;
+    border-radius:20px;
+
 }
 
 .metadata {
