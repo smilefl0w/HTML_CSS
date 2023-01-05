@@ -1,0 +1,148 @@
+/* CORE STYLES */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Bahnschrift, sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    background-color: white;
+    height: 25px;
+    padding: 15px;
+    text-align: right;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header a {
+    text-decoration:none;
+    color: #3f3f3f;
+    padding: 15px;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+header .name {
+    text-align: left;
+    margin-top:0px;
+    margin-left: 35px;
+    font-size: 20px;
+    color: #141414;
+}
+
+header a:hover {
+    color: #FFDBAC;
+}
+
+main {
+    margin:auto;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+
+}
+
+
+/* SECTION A */
+
+#section-a {
+    background: #FFDBAC;
+}
+
+#section-a .content-wrap {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#section-a h3 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: Bahnschrift Bold SmiCondensed, Arial;
+    color: #2a2a2a;
+}
+
+.content-wrap .text {
+    margin: auto;
+}
+
+#section-a .image {
+    text-align: center;
+}
+
+#section-a .profilepic {
+    margin-top: 50px;
+    width: 450px;
+    height: 450px;
+    border-radius: 5px;
+}
+
+/* #section-a .undertext {
+    margin-top: 0px;
+    text-align: center;
+    font-family: Bahnschrift Light Condensed, Arial;
+    color: #545454;
+    font-size: 10px;
+}
+*/
+
+#section-a .text {
+    font-family: Bahnschrift SemiLight, Arial;
+    font-size: 14px;
+    color: #545454 ;
+    width: 450px;
+}
+
+/* SECTION B */
+
+#section-b {
+    margin: 0;
+    background: #141414;
+}
+
+#section-b .content-title {
+    font-size: 100px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 35px;
+    margin-right: 100px;
+    font-family: Bahnschrift Bold, Arial;
+    /* color: white; */
+    color: #FFDBAC;
+}
+
+/* Solid border */
+hr.rounded {
+    border: solid 2px #FFDBAC;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 90px;
+    maring-top: 0px;
+
+}
+
+
+#section-b .content-wrap .text{
+    margin-left: 35px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+#section-b h3 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: Bahnschrift Bold SmiCondensed, Arial;
+    color: white;
+}
+
+#section-b .text {
+    font-family: Bahnschrift SemiLight, Arial;
+    font-size: 14px;
+    color: #a9a9a9 ;
+    width: 400px;
+}
