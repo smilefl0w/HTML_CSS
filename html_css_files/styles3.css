@@ -8,37 +8,45 @@ body {
 }
 
 header {
+    box-sizing: border-box;
     display: grid;
-    grid-template-columns: 1.1fr 1fr;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
     background-color: white;
-    height: 25px;
-    padding: 15px;
-    text-align: right;
+    height: 60px;
+    padding: 0px;
+    text-align: center;
     position: sticky;
     top: 0;
     z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 header a {
     text-decoration:none;
     color: #3f3f3f;
-    padding: 15px;
-    margin-right: 30px;
-    text-align: center;
     font-size: 18px;
+    transition: 0.2s;
 }
 
 header .name {
     text-align: left;
-    margin-top:0px;
-    margin-left: 35px;
+    margin-top: 18px;
+    margin-left: 50px;
     font-size: 20px;
     color: #141414;
 }
 
 header a:hover {
     color: #FFDBAC;
+    font-size: 19px;
 }
+
+header div {
+    margin-top: 18px;
+
+}
+
 
 main {
     margin:auto;
@@ -105,9 +113,47 @@ main {
     background: #141414;
 }
 
+@keyframes slideFromRight {
+    from {
+        transform: translateX(1000px);
+    }
+    to {
+        transform: translateX(0);
+    }
+
+}
+
+
 #section-b .content-title {
+    animation-name: slideFromRight;
+    animation-duration:2s;
+    animation-timing-function:;
+    animation-delay:;
+    animation-iteration-count:;
+    animation-direction:;
+    animation-fill-mode:;
+
     font-size: 100px;
     margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 35px;
+    margin-right: 100px;
+    font-family: Bahnschrift Bold, Arial;
+    /* color: white; */
+    color: #FFDBAC;
+}
+
+#section-b .content-titlep {
+    animation-name: slideFromRight;
+    animation-duration:2s;
+    animation-timing-function:ease-in;
+    animation-delay:;
+    animation-iteration-count:;
+    animation-direction:;
+    animation-fill-mode:;
+
+    font-size: 100px;
+    margin-top:0px;
     margin-bottom: 0px;
     margin-left: 35px;
     margin-right: 100px;
@@ -126,7 +172,6 @@ hr.rounded {
 
 }
 
-
 #section-b .content-wrap .text{
     margin-left: 35px;
     margin-right: 100px;
@@ -137,12 +182,12 @@ hr.rounded {
     margin-top: 40px;
     margin-bottom: 10px;
     font-family: Bahnschrift Bold SmiCondensed, Arial;
-    color: white;
+    color: #F7EBD3;
 }
 
 #section-b .text {
     font-family: Bahnschrift SemiLight, Arial;
     font-size: 14px;
-    color: #a9a9a9 ;
+    color: white ;
     width: 400px;
 }
